@@ -81,4 +81,20 @@ function findMultiples(integer, limit) {
   return result;
 }
 
+class Kata {
+  static getVolumeOfCuboid(length, width, height) {
+    // your code here
+    let volume = length * width * height
+    return volume
+  }
+}
 
+function strCount(str, letter){  
+  //code here
+  let count = 0;
+  for(let i=0; i < str.length; i++){
+    if(str[i] === letter)
+      count++;
+    }
+    return count
+  }
